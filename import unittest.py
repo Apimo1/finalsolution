@@ -7,5 +7,8 @@ class test_solution(unittest.Testcase):
 	def test_multiplication(self):
 		self.assertTrue(test_solution.solution(20,20,"*"),400)
 
+	def test_division(self):
+		self.assertTrue(test_solution.solution(20,20,"/"),1)
+
 	if __name__=="__main__":
 		unittest.main()
