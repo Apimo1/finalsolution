@@ -12,6 +12,10 @@ class test_solution(unittest.Testcase):
 	def test_subtraction (self):
 		self.assertTrue(test_solution.solution(20,20,"-"),0)
 
+	def test_addition (self):
+		self.assetFalse(test_solution.solution(20,20),10)
+
 
 	if __name__=="__main__":
 		unittest.main()
+		
