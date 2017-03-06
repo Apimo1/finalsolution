@@ -7,3 +7,7 @@ def solution(a,b,op):
 
 	elif op=="a/b":
 		return a/b
+
+	elif op =="a-b":
+		return a-b
+		
